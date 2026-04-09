@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/x-icon" href="assest/user.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sign Up</h1>
+    </header>
+    <section class="main">
+        <form action="submit" method="post">
+            <!-- Form fields go here -->
+            <input type="text" placeholder="Full name" name="name" required><br>
+            <input type="email" placeholder="Email" name="email" required><br>
+            <input type="password" placeholder="Password" name="password" required><br>
+            <input type="password" placeholder="Confirm Password" name="confirm_password" required><br>
+            <input type="date" placeholder="Date of Birth" name="dob" required><br>
+            <!-- radio buttons -->
+            <input type="radio" id="student" name="role" value="student">
+            <label for="student">Student</label>
+            <input type="radio" id="employee" name="role" value="employee">
+            <label for="employee">Employee</label><br>
+            <input type="checkbox" id="agree" name="agree" required>
+<label for="agree">I agree to terms & conditions</label><br>
+            <input type="submit" value="Sign Up">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
